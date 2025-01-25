@@ -1,1 +1,3 @@
-console.log("I love git");
+
+let a="Poor";
+console.log(a);
