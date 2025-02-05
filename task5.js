@@ -1,0 +1,11 @@
+const h3Tag = document.createElement('h3');
+h3Tag.textContent = 'Buy high quality organic fruits online'; 
+h3Tag.style.fontStyle = 'italic';
+const firstDiv = document.getElementById('header');
+firstDiv.appendChild(h3Tag);
+const paragraphTag = document.createElement('p');
+paragraphTag.textContent = 'Total fruits: 4'; 
+paragraphTag.id = 'fruits-total';
+const secondDiv = firstDiv.nextElementSibling;
+const ulElement = secondDiv.querySelector('ul');
+secondDiv.insertBefore(paragraphTag, ulElement);
